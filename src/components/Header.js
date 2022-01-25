@@ -1,7 +1,13 @@
 import React from "react";
 import Search from "./Search";
 
-function Header() {
+function Header({products, onSearch}) {
+
+  function filterData(searchItem) {
+  const filtered = products.filter(product => product.description.includes(searchItem))
+  onSearch(filtered)
+  }
+
   return (
     <header>
       <h1>
@@ -10,7 +16,7 @@ function Header() {
         </span>
         gregslist
       </h1>
-      <Search />
+      <Search filterData={filterData} />
     </header>
   );
 }

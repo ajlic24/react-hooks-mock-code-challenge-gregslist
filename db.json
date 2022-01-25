@@ -41,6 +41,24 @@
       "description": "Treadmill Parts For Free",
       "image": "./images/treadmill.jpg",
       "location": "East Flatbush"
+    },
+    {
+      "id": 8,
+      "description": "Treadmill Parts For Free",
+      "image": "./images/treadmill.jpg",
+      "location": "East Flatbush"
+    },
+    {
+      "id": 9,
+      "description": "Treadmill Parts For Free",
+      "image": "./images/treadmill.jpg",
+      "location": "East Flatbush"
+    },
+    {
+      "id": 10,
+      "description": "Treadmill Parts For Free",
+      "image": "./images/treadmill.jpg",
+      "location": "East Flatbush"
     }
   ]
 }
